@@ -3,8 +3,6 @@ import { toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import PropTypes from 'prop-types';
 
-import { FaSearch } from "react-icons/fa";
-
 import { SearchbarContainer, SearchForm, SeacrhFormInput, SearchFormBtn, SearchFormLabel, StyledFaSearch } from './SearchBar.styled';
 
 class Searchbar extends Component {
